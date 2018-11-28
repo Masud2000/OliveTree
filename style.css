@@ -1,0 +1,1133 @@
+
+/* =========================================================
+   ============ Common CSS For All Page {START} ============
+   ========================================================= */
+
+
+*{
+	padding: 0; margin: auto;
+}
+
+
+/* Whole Page */
+.wrapper_area{
+	width: 1343px;
+	height: auto;
+}
+/* Whole Page */
+
+
+
+/* Header area */
+header{
+	border-top: solid 3px #FF5500;
+	background-color: #35424a;
+	height: 100px;
+}
+
+header img{
+	float: left;
+	height: 80px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+header h1{
+	float: left;
+	color: white;
+	font-family: calibri;
+	margin-left: 80px;
+	line-height: 80px;
+}
+
+header h3{
+	color: white;
+	font-family: calibri;
+	float: right;
+	margin-right: 530px;
+	margin-top: -20px;
+}
+
+header span{
+	color: #FF5500;
+}
+/* Header area */
+
+
+
+/* Navigation Bar */
+nav{
+	float: left;
+	position: relative;
+	z-index: 5;
+	height: 45px;
+	width: 100%;
+	background-color: #1B1B1B;
+	border-bottom: solid 3px #FF5500;
+}
+
+nav ul{
+	margin-left: 100px;
+	list-style: none;
+}
+
+nav ul li{
+	height: 41px;
+	width: 150px;
+	line-height: 41px;
+	text-align: center;
+	font-family: calibri;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 5px;
+	border: 2px solid #1B1B1B;
+	transition: 0.5s;
+}
+
+nav ul li a{
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:hover{
+	border-color: #FF5500;
+	background-color: white;
+}
+
+nav ul li:hover a{
+	color: black;
+}
+
+nav input{
+	height: 24px;
+	width: 200px;
+	border: 2px solid #fff;
+	padding-left: 10px;
+	margin-left: 120px;
+	border-radius: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+nav input:focus{
+	border-color: #FF5500;
+}
+
+nav input:hover{
+	border-color: #FF5500;
+}
+
+nav button{
+	position: relative;
+	float: right;
+	height: 30px;
+	width: 85px;
+	background-color: #FF5500;
+	border: solid 2px #FF5500;
+	border-radius: 10px;
+	transition: 0.5s;
+	margin-right: 70px;
+	margin-top: 8px;
+	outline: none;
+}
+
+nav button a{
+	text-decoration: none;
+	color: white;
+}
+
+nav button:hover{
+	background-color: white;
+}
+
+nav button:hover a{
+	color: #FF5500;
+}
+/* Navigation Bar */
+
+
+/* =========================================================
+   ============= Common CSS For All Page {END} =============
+   ========================================================= */
+
+
+
+/* =========================================================
+   =============== CSS Of HOME Page {START} ================
+   ========================================================= */
+
+
+/* Cover Image Part */
+.cover{
+	height: 450px;
+	width: 100%;
+	background-repeat: no-repeat;
+	border-bottom: solid 3px #FF5500;
+	background: url(img/back1.jpg);
+	animation: slide 60s infinite;
+}
+
+.cover p{
+	position: absolute;
+	color: #35424a;
+	font-family: Berlin Sans FB;
+	margin-left: 200px;
+	margin-top: 90px;
+	font-size: 20px;
+}
+
+.cover h1{
+	position: absolute;
+	color: #FF5500;
+	font-family: Berlin Sans FB;
+	margin-left: 200px;
+	margin-top: 120px;
+	font-size: 70px;
+	text-shadow: 2px;
+}
+
+.cover h3{
+	position: absolute;
+	color: #1E9E00;
+	font-family: Berlin Sans FB;
+	margin-left: 200px;
+	margin-top: 390px;
+	font-size: 30px;
+}
+/* Cover Image Part */
+
+
+/* Cover Down */
+.cdown{
+	float: left;
+	height: 80px;
+	width: 100%;
+	background-color: #35424a;
+	border-bottom: solid 3px #FF5500;
+}
+
+.cdown h1{
+	color: white;
+	font-family: calibri;
+	line-height: 80px;
+	margin-left: 150px;
+}
+
+.cdown span{
+	color: #FF5500;
+}
+
+@keyframes slide{
+	20%{
+		background: url(img/back1.jpg);
+	}
+	40%{
+		background: url(img/back2.jpg);
+	}
+	60%{
+		background: url(img/back3.jpg);
+	}
+	80%{
+		background: url(img/back4.jpg);
+	}
+	100%{
+		background: url(img/back1.jpg);
+	}
+}
+/* Cover Down */
+
+
+/* Clients */
+.clients{
+	float: left;
+	height: 500px;
+	font-family: calibri;
+	margin-top: 50px;
+	width: 100%;
+	background-image: url(img/clientsback.png);
+	background-size: cover;
+}
+
+.clients h1{
+	border: solid 5px #FF5500;
+	padding: 10px 40px;
+	color: #35424a;
+	width: 400px;
+	margin-left: 100px;
+}
+
+.clients span{
+	color: #FF5500;
+}
+
+.clogo{
+	float: left;
+	margin-top: 80px;
+	margin-left: 200px;
+	width: 1100px;
+}
+
+.clogo img{
+	position: relative;
+	height: auto;
+	width: 260px;
+	margin-right: 80px;
+	margin-bottom: 40px;
+}
+/* Clients */
+
+
+/* =========================================================
+   ================ CSS Of HOME Page {END} =================
+   ========================================================= */
+
+
+
+/* =========================================================
+   ============= CSS Of ABOUT US Page {START} ==============
+   ========================================================= */
+
+
+/* About Us Body */
+
+/* About */
+.about{
+	float: left;
+	height: 376px;
+	font-family: calibri;
+	margin-top: 50px;
+	margin-left: 0px;
+	background-image: url(img/aboutback.jpg);
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+
+.about h1{
+	border: solid 5px #FF5500;
+	padding: 10px 80px;
+	color: #35424a;
+	width: 320px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+
+.about h3{
+	width: 900px;
+	text-align: justify;
+	margin-left: 0px;
+	margin-left: 40px;
+}
+
+.about span{
+	color: #FF5500;
+}
+
+.about h3 img{
+	float: right;
+	margin-right: -300px;
+	margin-top: -190px;
+	height: 200px;
+	width: auto;
+}
+
+.about hr{
+	float: left;
+	background-color: #FF5500;
+	height: 4px;
+	border: none;
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 1250px;
+}
+/* About */
+
+
+/* Mission */
+.mission{
+	float: left;
+	height: 361px;
+	font-family: calibri;
+	margin-top: 50px;
+	background-image: url(img/missionback.jpg);
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+
+.mission h1{
+	margin-top: 20px;
+	border: solid 5px #FF5500;
+	padding: 10px 80px;
+	color: #35424a;
+	width: 320px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+
+.mission h3{
+	width: 900px;
+	text-align: justify;
+	margin-left: 360px;
+}
+
+.mission span{
+	color: #FF5500;
+}
+
+.mission h3 img{
+	float: left;
+	margin-left: -260px;
+	margin-top: -110px;
+	height: 200px;
+	width: auto;
+}
+
+.mission hr{
+	float: left;
+	background-color: #FF5500;
+	height: 4px;
+	margin-top: 40px;
+	border: none;
+	margin-left: 40px;
+	width: 1250px;
+}
+/* Mission */
+
+
+/* Number */
+.number{
+	float: left;
+	height: 453px;
+	font-family: calibri;
+	margin-top: 10px;
+	background-image: url(img/numberback.jpg);
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+
+.number h1{
+	margin-top: 50px;
+	border: solid 5px #FF5500;
+	padding: 10px 50px;
+	color: #35424a;
+	width: 380px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+
+.number span{
+	color: #FF5500;
+}
+
+.number ul{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+.number ul li{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: solid #FF5500 4px;
+	border-radius: 50%;
+	background: radial-gradient(white,#FFEEE2);
+	margin-right: 25px;
+	font-family: calibri;
+	text-align: center;
+}
+
+.number ul li img{
+	margin-left: 0px;
+	margin-top: 6px;
+	width: 44px;
+	height: 44px;
+}
+
+.number ul li h2{
+	margin-top: 0px;
+	color: #35424a;
+	font-size: 50px;
+}
+
+.number h3{
+	width: 900px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.number h3 img{
+	float: right;
+	margin-right: -300px;
+	margin-top: -200px;
+	height: 200px;
+	width: auto;
+}
+
+.number hr{
+	float: left;
+	background-color: #FF5500;
+	height: 4px;
+	margin-top: 40px;
+	border: none;
+	margin-left: 40px;
+	width: 1250px;
+}
+/* Number */
+
+
+/* Team */
+.team{
+	float: left;
+	height: 600px;
+	font-family: calibri;
+	margin-top: 20px;
+	background-image: url(img/teamback.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.team h1{
+	margin-top: 50px;
+	border: solid 5px #FF5500;
+	padding: 10px 50px;
+	color: #35424a;
+	width: 380px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+
+.team span{
+	color: #FF5500;
+}
+
+.team img{
+	float: right;
+	height: 280px;
+	width: auto;
+	margin-right: 150px;
+}
+
+.team h3{
+	float: right;
+	margin-right: 70px;
+	width: 900px;
+	margin-top: 40px;
+}
+
+.team h3 img{
+	float: left;
+	height: 200px;
+	width: auto;
+	margin-top: -300px;
+	margin-left: -270px;
+}
+/* Team */
+
+/* About Body */
+
+
+/* =========================================================
+   ============== CSS Of ABOUT US Page {END} ===============
+   ========================================================= */
+
+
+
+/* =========================================================
+   ============== CSS Of DESIGN Page {START} ===============
+   ========================================================= */
+
+
+/* Design Body */
+.design{
+	float: left;
+	font-family: calibri;
+	background-image: url(img/designback.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.design h1{
+	float: left;
+	margin-top: 50px;
+	border: solid 5px #FF5500;
+	padding: 10px 50px;
+	color: #35424a;
+	width: 380px;
+	margin-left: 140px;
+	margin-bottom: 50px;	
+}
+
+.design h3{
+	float: left;
+	margin-left: 70px;
+	width: 1100px;
+}
+
+.design span{
+	color: #FF5500;
+}
+
+.design ul{
+	float: left;
+	margin-top: 80px;
+	width: 1270px;
+	margin-left: 70px;
+}
+
+.design ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.design ul li img{
+	float: left;
+	height: 190px;
+	width: auto;
+	margin-right: 48px;
+	margin-bottom: 60px;
+	transition: 0.5s;
+}
+
+.design ul li img:hover{
+	transform: scale(1.2);
+}
+/* Design Body */
+
+
+/* =========================================================
+   =============== CSS Of DESIGN Page {END} ================
+   ========================================================= */
+
+
+
+/* =========================================================
+   ============ CSS Of CONTACT US Page {START} =============
+   ========================================================= */
+
+
+/* Contact Us Body */
+.contact{
+	float: left;
+	background-image: url(img/contactback.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: calibri;
+	width: 100%;
+}
+
+.contact form{
+	background-color: #ECECEC;
+	float: left;
+	width: 1200px;
+	padding-top: 50px;
+	margin-left: 70px;
+	border-radius: 5px;
+	border: solid 2px #FF5500;
+	margin-bottom: 40px;
+}
+
+.contact h1{
+	float: left;
+	margin-top: 50px;
+	border: solid 5px #FF5500;
+	padding: 10px 50px;
+	color: #35424a;
+	width: 380px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+
+.contact h2{
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.contact h3{
+	float: left;
+	margin-left: 70px;
+	width: 1100px;
+	margin-bottom: 50px;
+}
+
+.contact span{
+	color: #FF5500;
+}
+
+.contact input[type="text"]{
+	margin-left: 95px;
+	position: relative;
+	z-index: 5;
+	border: solid 2px #35424a;
+	outline: none;
+	padding-left: 10px;
+	margin-right: -65px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	margin-top: 35px;
+	float: left;
+	height: 40px;
+	transition: 0.5s;
+}
+
+.contact input[type="email"]{
+	margin-left: 95px;
+	position: relative;
+	z-index: 5;
+	border: solid 2px #35424a;
+	outline: none;
+	padding-left: 10px;
+	margin-right: -65px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	margin-top: 35px;
+	float: left;
+	height: 40px;
+	transition: 0.5s;
+}
+
+.contact input[type="number"]{
+	margin-left: 95px;
+	position: relative;
+	z-index: 5;
+	border: solid 2px #35424a;
+	outline: none;
+	padding-left: 10px;
+	margin-right: -65px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	margin-top: 35px;
+	float: left;
+	height: 40px;
+	transition: 0.5s;
+}
+
+.contact input[type="text"]:hover{
+	border: solid 2px #FF5500;
+}
+
+.contact input[type="text"]:focus{
+	border: solid 2px #FF5500;
+}
+
+.contact input[type="email"]:hover{
+	border: solid 2px #FF5500;
+}
+
+.contact input[type="email"]:focus{
+	border: solid 2px #FF5500;
+}
+
+.contact input[type="number"]:hover{
+	border: solid 2px #FF5500;
+}
+
+.contact input[type="number"]:focus{
+	border: solid 2px #FF5500;
+}
+
+.contact input[type="Submit"]{
+	float: left;
+	margin-top: 50px;
+	width: 250px;
+	height: 50px;
+	margin-left: 850px;
+	font-size: 25px;
+	background-color: #FF5500;
+	border: solid 3px #FF5500;
+	outline: none;
+	color: white;
+	margin-bottom: 60px;
+	transition: 0.5s;
+}
+
+.contact input[type="Submit"]:hover{
+	color: #FF5500;
+	background-color: white;
+}
+
+.contact textarea{
+	float: left;
+	position: relative;
+	z-index: 5;
+	margin-top: 150px;
+	width: 990px;
+	height: 100px;
+	margin-left: -945px;
+	border: solid 2px #35424a;
+	border-radius: 4px;
+	padding: 10px 10px;
+	outline: none;
+	transition: 0.25s;
+}
+
+.contact textarea:hover{
+	border: solid 2px #FF5500;
+}
+
+.contact textarea:focus{
+	border: solid 2px #FF5500;
+}
+
+#sname{
+	float: left;
+	width: 300px;
+}
+
+#long{
+	width: 990px;
+}
+
+#name{
+	width: 474px;
+}
+
+.contact iframe{
+	float: left;
+	height: 400px;
+	width: 1000px;
+	overflow: hidden;
+}
+
+.iframe{
+	float: left;
+	margin-left: 170px;
+	border: solid 2px #FF5500;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.name{
+	position: absolute;
+	font-size: 20px; 
+	margin-top: 5px;
+	margin-left: 100px;
+}
+
+.F{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.L{
+	margin-top: -24px;
+	margin-left: 345px;
+}
+
+.T{
+	margin-top: -24px;
+	margin-left: 690px;
+}
+
+.A{
+	margin-top: 80px;
+	margin-left: 0px;
+}
+
+.C{
+	margin-top: 80px;
+	margin-left: 0px;
+}
+
+.W{
+	margin-top: -24px;
+	margin-left: 520px;
+}
+
+.P{
+	margin-top: 80px;
+	margin-left: 0px;
+}
+
+.E{
+	margin-top: -24px;
+	margin-left: 520px;
+}
+
+.M{
+	margin-top: 90px;
+	margin-left: 0px;
+}
+
+marquee{
+	background-color: white;
+	border-top: solid 1px #FF5500;
+	border-bottom: solid 1px #FF5500;
+}
+
+marquee h5{
+	font-size: 30px;
+	margin-right: -200px;
+}
+/* Contact Us Body */
+
+
+/* =========================================================
+   ============= CSS Of CONTACT US Page {END} ==============
+   ========================================================= */
+
+
+
+/* =========================================================
+   ============= CSS Of SIGN UP Page {START} ===============
+   ========================================================= */
+
+
+/* Sign Up Bar */
+.body{
+	background-image: url(img/signback.jpg);
+	background-size: cover;
+	height: 600px;
+}
+
+.sign{
+	float: left;
+	height: 400px;
+	width: 600px;
+	background-color: white;
+	margin-left: 350px;
+	margin-top: 70px;
+	border: solid 3px #FF5500;
+	margin-bottom: 70px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Sign Up Left Part */
+.sleft{
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-color: #F5F5F5;
+	font-family: calibri;
+}
+
+.sleft h2{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: -20px;
+	margin-bottom: 20px;
+}
+
+.sleft span{
+	color: #FF5500;
+}
+
+.sleft input[type="text"]{
+	height: 30px;
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	margin-left: 35px;
+	padding-left: 15px;
+	border-bottom: solid 1px black;
+	transition: 0.25s;
+}
+
+.sleft input[type="email"]{
+	height: 30px;
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	margin-left: 35px;
+	padding-left: 15px;
+	border-bottom: solid 1px black;
+	transition: 0.25s;
+}
+
+.sleft input[type="password"]{
+	height: 30px;
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	margin-left: 35px;
+	padding-left: 15px;
+	border-bottom: solid 1px black;
+	transition: 0.25s;
+}
+
+.sleft input[type="text"]:hover{
+	border-bottom: solid 1px #FF5500;
+}
+
+.sleft input[type="text"]:focus{
+	border-bottom: solid 1px #FF5500;
+}
+
+.sleft input[type="email"]:hover{
+	border-bottom: solid 1px #FF5500;
+}
+
+.sleft input[type="email"]:focus{
+	border-bottom: solid 1px #FF5500;
+}
+
+.sleft input[type="password"]:hover{
+	border-bottom: solid 1px #FF5500;
+}
+
+.sleft input[type="password"]:focus{
+	border-bottom: solid 1px #FF5500;
+}
+
+.sleft input[type="submit"]{
+	float: left;
+	background-color: #FF5500;
+	color: white;
+	border: solid 2px #FF5500;
+	outline: none;
+	height: 30px;
+	width: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+	transition: 0.25s;
+	margin-bottom: 37px;
+}
+
+.sleft input[type="submit"]:hover{
+	background-color: white;
+	color: #FF5500;
+	border: solid 2px #FF5500;
+}
+
+.sleft h3{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FF5500;
+	color: white;
+	z-index: 5;
+	margin-left: 275px;
+	margin-top: -150px;
+}
+/* Sign Up Left Part */
+
+
+/* Sign Up Right Part */
+.sright{
+	float: right;
+	position: relative;
+	width: 50%;
+	background-image: url(img/sright.jpg);
+	height: 100%;
+	background-size: cover;
+	font-family: calibri;
+}
+
+.sright h2{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.sright span{
+	color: #FF5500;
+}
+
+.sright button{
+	margin-left: 50px;
+	height: 35px;
+	width: 200px;
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	transition: 0.25s;
+}
+
+.sright a{
+	text-decoration: none;
+	color: white;
+}
+
+.f{
+	background-color: #3b5998;
+}
+
+.t{
+	background-color: #1da1f2;
+}
+
+.i{
+	background-color: #e4405f;
+}
+
+.g{
+	background-color: #dd4b39;
+}
+
+.f:hover{
+	background-color: #4A6FBE;
+	transform: scale(1.1);
+}
+
+.t:hover{
+	background-color: #4BBAFF;
+	transform: scale(1.1);
+}
+
+.i:hover{
+	background-color: #FF5071;
+	transform: scale(1.1);
+}
+
+.g:hover{
+	background-color: #F35440;
+	transform: scale(1.1);
+}
+/* Sign Up Right Part */
+
+/* Sign Up bar */
+
+
+/* =========================================================
+   ============== CSS Of SIGN UP Page {END} ================
+   ========================================================= */
+
+
+
+/* =========================================================
+   ================ Common CSS For All Page ================
+   ========================================================= */
+
+
+/* Footer */
+footer{
+	float: left;
+	height: 80px;
+	width: 100%;
+	background-color: #35424a;
+	color: white;
+	font-family: calibri;
+	font-size: 20px;
+	line-height: 80px;
+	text-align: center;
+	border-top: solid 3px #FF5500;
+	border-bottom: solid 3px #FF5500;
+}
+
+footer span{
+	color: #FF5500;
+}
+/* Footer */
+
+
+/* =========================================================
+   ================ Common CSS For All Page ================
+   ========================================================= */
